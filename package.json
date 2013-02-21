@@ -1,0 +1,13 @@
+{
+  "name": "pbj",
+  "version": "1.0.0",
+  "description": "tiny, stupid bitmap image format",
+  "author": {
+    "name": "The Dark Sky Company, LLC",
+    "email": "support@darkskyapp.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkskyapp/pbj.git"
+  }
+}
