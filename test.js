@@ -28,6 +28,8 @@
         expect(pbj.width()).to.equal(128);
         expect(pbj.height()).to.equal(128);
         expect(pbj.bitAt(68, 67)).to.be.true;
+        expect(pbj.bitAt(68, 67)).to.be.true;
+        expect(pbj.bitAt(67, 68)).to.be.true;
         expect(pbj.bitAt(67, 68)).to.be.true;
         done();
       });

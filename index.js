@@ -2,7 +2,8 @@ var fs   = require("fs"),
     zlib = require("zlib");
 
 function PBJ(data) {
-  this.data = data;
+  this.data = new Buffer(data.length);
+  data.copy(this.data);
 };
 
 PBJ.readFile = function(pathname, callback) {
