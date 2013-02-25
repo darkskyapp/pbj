@@ -2,8 +2,7 @@ var fs   = require("fs"),
     zlib = require("zlib");
 
 function PBJ(data) {
-  this.data = new Buffer(data.length);
-  data.copy(this.data);
+  this.data = data;
 };
 
 PBJ.readFile = function(pathname, callback) {
@@ -44,7 +43,7 @@ PBJ.prototype = {
         byteOffset = 4 + (index >>> 3),
         bitMask    = 1 << (7 - (index & 7));
 
-    return !!(this.data.readUInt8(byteOffset, true) & bitMask);
+    return !!(this.data.readUInt8(byteOffset) & bitMask);
   }
 };
 
