@@ -1,6 +1,6 @@
 {
   "name": "pbj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tiny, stupid bitmap image format",
   "author": {
     "name": "The Dark Sky Company, LLC",
@@ -9,5 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/darkskyapp/pbj.git"
+  },
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "chai": "1.5.x"
   }
 }

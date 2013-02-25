@@ -43,7 +43,7 @@ PBJ.prototype = {
         byteOffset = 4 + (index >>> 3),
         bitMask    = 1 << (7 - (index & 7));
 
-    return !!(this.data.readUint8(byteOffset, true) & bitMask);
+    return !!(this.data.readUInt8(byteOffset, true) & bitMask);
   }
 };
 
