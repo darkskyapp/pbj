@@ -17,3 +17,5 @@ or ".pbjz", it will decompress it for you.
 
 "PBJ" stands for "Peanut Butter and Jelly." The "J" also stands for "Jay" which
 is itself a diminuitive for "Jason."
+
+![It's a sweet ride.](https://raw.github.com/darkskyapp/pbj/master/doc/sweetride.gif)
