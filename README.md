@@ -16,6 +16,6 @@ It's not a very space-efficient format, but that's why God invented
 or ".pbjz", it will decompress it for you.
 
 "PBJ" stands for "Peanut Butter and Jelly." The "J" also stands for "Jay" which
-is itself a diminuitive for "Jason."
+is itself a diminutive for "Jason."
 
 ![It's a sweet ride.](https://raw.github.com/darkskyapp/pbj/master/doc/sweetride.gif)
