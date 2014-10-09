@@ -15,7 +15,13 @@ It's not a very space-efficient format, but that's why God invented
 [GZIP](http://zlib.net/). If you pass this library a file ending in ".pbj.gz"
 or ".pbjz", it will decompress it for you.
 
-"PBJ" stands for "Peanut Butter and Jelly." The "J" also stands for "Jay" which
-is itself a diminutive for "Jason."
+We have, at times, used it in place of PNGs as a storage format since it's much
+more efficient to work with.
 
-![It's a sweet ride.](https://raw.github.com/darkskyapp/pbj/master/doc/sweetride.gif)
+License
+-------
+
+To the extend possible by law, The Dark Sky Company, LLC has [waived all
+copyright and related or neighboring rights][cc0] to this library.
+
+[cc0]: http://creativecommons.org/publicdomain/zero/1.0/
