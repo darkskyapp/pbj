@@ -42,4 +42,15 @@ describe("PBJ", () => {
       done();
     });
   });
+
+  it("should allow setting bits", done => {
+    PBJ.readFile(path.join(__dirname, "var/1.pbjz"), (err, pbj) => {
+      expect(pbj.get(0, 0)).to.be.false;
+
+      pbj.set(0, 0);
+      expect(pbj.get(0, 0)).to.be.true;
+
+      done();
+    });
+  });
 });
